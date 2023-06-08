@@ -24,7 +24,15 @@ namespace ClassAdv
 
             Box box = new Box(10, 10);
 
-            box.Width = -1000;
+            box.Width = 100;
+            try
+            {
+                box.Height = -190;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }

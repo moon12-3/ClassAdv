@@ -1,4 +1,6 @@
-﻿namespace ClassAdv
+﻿using System;
+
+namespace ClassAdv
 {
     internal class Box
     {
@@ -27,7 +29,7 @@
             {
                 if (value <= 0)
                 {
-                    height = 0;
+                    throw (new Exception("Height는 양수"));
                 }
                 height = value;
             }
