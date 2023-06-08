@@ -24,7 +24,7 @@ namespace ClassAdv
 
             Box box = new Box(10, 10);
 
-            box.Width = 1-000
+            box.Width = -1000;
         }
     }
 }
